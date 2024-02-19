@@ -1179,97 +1179,98 @@ Generative Adversarial Networks (GANs) are a class of artificial intelligence mo
 
 # **Visualizations**
 <!-- Data Exploration and Preprocessing Visualizations -->
+<h3 align="center">Data Distribution Histogram</h3>
 <p align="center">
-    <h3>Data Distribution Histogram</h3>
     <img src="https://api.www.labxchange.org/api/v1/xblocks/lb:LabXchange:10d3270e:html:1/storage/17__histogram-31626365193365-3b46e339f410f97cfae66fc8c127ea02.png" width="400"/>
 </p>
 
+<h3 align="center">Pair Plot</h3>
 <p align="center">
-    <h3>Pair Plot</h3>
     <img src="https://seaborn.pydata.org/_images/pairplot_11_0.png" width="400"/>
 </p>
 
+<h3 align="center">Correlation Heatmap</h3>
 <p align="center">
-    <h3>Correlation Heatmap</h3>
     <img src="https://www.quanthub.com/wp-content/uploads/correlation_heatmap_food_health-1024x867.png" width="400"/>
 </p>
 
 <!-- Model Architecture Visualizations -->
+<h3 align="center">Model Summary</h3>
 <p align="center">
-    <h3>Model Summary</h3>
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*6c68EXZvK8ohMuIV_DVkng.png" width="400"/>
 </p>
 
+<h3 align="center">Graph Visualization</h3>
 <p align="center">
-    <h3>Graph Visualization</h3>
     <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/199/089/datas/original.jpeg" width="400"/>
 </p>
 
 <!-- Training Progress Visualizations -->
+<h3 align="center">Loss and Accuracy Plot</h3>
 <p align="center">
-    <h3>Loss and Accuracy Plot</h3>
     <img src="https://discuss.pytorch.org/uploads/default/4572286a1ffae2ff1f9729c7dcc4584b03b97020" width="400"/>
 </p>
 
 
 <!-- Filter Visualizations -->
+<h3 align="center">Filter Visualization</h3>
 <p align="center">
-    <h3>Filter Visualization</h3>
     <img src="https://srdas.github.io/DLBook/DL_images/cnn9.png" width="400"/>
 </p>
 
 <!-- Attention Maps -->
+<h3 align="center">Attention Map</h3>
 <p align="center">
-    <h3>Attention Map</h3>
     <img src="https://www.mdpi.com/remotesensing/remotesensing-12-01366/article_deploy/html/images/remotesensing-12-01366-g002.png" width="400"/>
 </p>
 
 <!-- Embedding Visualizations -->
+<h3 align="center">t-SNE Plot</h3>
 <p align="center">
-    <h3>t-SNE Plot</h3>
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/T-SNE_visualisation_of_word_embeddings_generated_using_19th_century_literature.png" width="400"/>
 </p>
 
 
 <!-- Decision Boundary Visualizations -->
+<h3 align="center">Decision Boundary Plot</h3>
 <p align="center">
-    <h3>Decision Boundary Plot</h3>
     <img src="https://i.stack.imgur.com/T3aMD.png" width="400"/>
 </p>
 
 <!-- Confusion Matrices and Classification Reports -->
+<h3 align="center">Confusion Matrix</h3>
 <p align="center">
-    <h3>Confusion Matrix</h3>
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230316112623/download-(16).png" width="400"/>
 </p>
 
+<h3 align="center">Classification Report</h3>
 <p align="center">
-    <h3>Classification Report</h3>
     <img src="https://i.stack.imgur.com/LIWH1.jpg" width="400"/>
 </p>
 
 
 <!-- GAN Visualizations -->
+<h3 align="center">Generated Samples</h3>
 <p align="center">
-    <h3>Generated Samples</h3>
     <img src="https://machinelearningmastery.com/wp-content/uploads/2019/06/Example-of-Celebrity-Photographs-and-GAN-Generated-Emojis.png" width="400"/>
 </p>
 
+<h3 align="center">Latent Space Exploration</h3>
 <p align="center">
-    <h3>Latent Space Exploration</h3>
     <img src="https://miro.medium.com/v2/resize:fit:960/0*cYaaF2pFLECohCaI.gif" width="400"/>
 </p>
 
 <!-- Hyperparameter Search Visualizations -->
+<h3 align="center">Hyperparameter Plot</h3>
 <p align="center">
-    <h3>Hyperparameter Plot</h3>
     <img src="https://miro.medium.com/v2/resize:fit:1400/0*5N5USunsVC3h_jrx.png" width="400"/>
 </p>
 
 <!-- Explainability Visualizations -->
+<h3 align="center">SHAP Values</h3>
 <p align="center">
-    <h3>SHAP Values</h3>
     <img src="https://images.datacamp.com/image/upload/v1688055328/image_1268879d70.png" width="400"/>
 </p>
+
 
 ---
