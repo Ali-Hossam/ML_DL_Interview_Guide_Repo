@@ -21,12 +21,11 @@ Anomaly Detection: Focuses on identifying instances that deviate significantly f
   * Fault detection
 
 
-
 # **Machine learning pipeline**
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://static.designandreuse.com/img20/20230306c_1.jpg" width="400"/>
-</div>
+</p>
 
 ### Build dataset
 
@@ -125,9 +124,9 @@ In linear regression, we fit the line using least squares (find the line that mi
 
 In logistic regression, we use something called maximum likelihood.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://facultystaff.richmond.edu/~tmattson/INFO303/images/logisticregressionanimatedgif.gif" width="400"/>
-</div>
+</p>
 
 
 
@@ -158,9 +157,9 @@ where:
 $$d(\mathbf{x}, \mathbf{y}) = \sum_{i=1}^{n}|x_i - y_i|$$
 
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231207103856/KNN-Algorithm-(1).png" width="400"/>
-</div>
+</p>
 
 
 
@@ -183,9 +182,9 @@ In logestic regression, if we have a point just to the right of our model line i
 
 SVM chooses the best hyperplane that maximizes the margin.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*z_B0o4JbD0C6gpmcenUc4w.jpeg" width="400"/>
-</div>
+</p>
 
 
 SVM is sensitive to outliers (tends to overfit), therefore we use reqularization.
@@ -201,9 +200,9 @@ The kernel trick:
 
 
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*mCwnu5kXot6buL7jeIafqQ.png" width="400"/>
-</div>
+</p>
 
 ### Decision Tree
 
@@ -213,9 +212,9 @@ Tends to split our dataset into two datasets in every iteration.
 3. Continue untill leaf node is pure (only one class) ((max depth is reached))
  
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*XNRAIk1XTVCt7USKAKcVXw.gif" width="400"/>
-</div>
+</p>
 
 #### **How to choose best number of splits?**
 1. Plot learning curve: by plotting the performance (accuracy, mse, etc) on both train and validation set against different number of splits.
@@ -246,9 +245,9 @@ Increased Stability: Bagging helps improve the stability and robustness of the m
 
 #### Random Forest
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://1.bp.blogspot.com/-Ax59WK4DE8w/YK6o9bt_9jI/AAAAAAAAEQA/9KbBf9cdL6kOFkJnU39aUn4m8ydThPenwCLcBGAsYHQ/s0/Random%2BForest%2B03.gif" width="400"/>
-</div>
+</p>
 
 ### Boosting
 
@@ -271,9 +270,9 @@ Here's how boosting works:
 Popular algorithms for boosting include AdaBoost (Adaptive Boosting) and Gradient Boosting.
 
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210707140911/Boosting.png" width="400"/>
-</div>
+</p>
 
 #### **Loss functions**
 1. (0 - 1) loss function: multiplies misclassifed points by one, and ignores correctly classified points. The problem is that it is not differentiable so it's difficult to optimize.
@@ -282,9 +281,9 @@ Popular algorithms for boosting include AdaBoost (Adaptive Boosting) and Gradien
 
 3. Graident Boosting : more robust to outliers than AdaBoost
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1037/1*cF2PsxVVPpVB25_cBtC1Kg.png" width="400"/>
-</div>
+</p>
 
 
 The learning rate controls the contribution of each weak learner to the overall model. A lower learning rate requires more rounds but can lead to better generalization. Experiment with different learning rates.
@@ -309,9 +308,9 @@ Here's how stacking works:
 
 Stacking allows for more complex relationships between the base models and can potentially achieve better performance than individual models.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:809/0*e-na5r7mF8lVAfPK.png" width="400"/>
-</div>
+</p>
 
 ## Error metrics 
 
@@ -327,9 +326,9 @@ A matrix is used to evaluate the performance of a classification algorithm.
 
 * False Negatives (FN): The number of instances that were incorrectly predicted as negative (the model predicted a negative class, but the actual class was positive).
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://images.datacamp.com/image/upload/v1701364260/image_5baaeac4c0.png" width="400"/>
-</div>
+</p>
 
 
 
@@ -354,9 +353,9 @@ In multiclass problems we create a confusion matrix for each class.
 
 Accuracy = Sum of True Positives for all classes / Total Number of Instances
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*DQBHIaYhnlefJbRCSNzvrg.gif" width="400"/>
-</div>
+</p>
 
 ## Threshold Choosing metrics
 models generate a probability between 0 and 1 for classifing an object as "someclass" or not, and we want to find the threshold that once the prediction is above it it will be treated as class, otherwise it is not class.
@@ -382,9 +381,9 @@ This equation represents the proportion of actual positive cases that the model 
 It represents the proportion of actual negative instances incorrectly classified as positive by the model.
 
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*qW3Mobeew1xxnXJnBPy8LQ.jpeg" width="400"/>
-</div>
+</p>
 
 
 ### 2. Precision - Recall curve
@@ -433,9 +432,9 @@ Clustering: Identify unknown structure in the data and can be used:
    1. smaller values corresponds to tighter clusters
    2. Not sensitive to number of points
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://assets.blog.code-specialist.com/k_means_animation_6cdd31d106.gif" width="400"/>
-</div>
+</p>
 
 
 
@@ -458,9 +457,9 @@ Clustering: Identify unknown structure in the data and can be used:
 
 3. Average linkage : average pairwise distance between clusters
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://dashee87.github.io/images/hierarch.gif" width="400"/>
-</div>
+</p>
 
 
 #### DBSCAN
@@ -487,9 +486,9 @@ A true clsutering algorithm that can have points that don't belong to any cluste
 1. Requires two paramters 
 2. Doesn't do well with clusters with different density
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://dashee87.github.io/images/DBSCAN_search.gif" width="400"/>
-</div>
+</p>
 
 
 
@@ -517,9 +516,9 @@ The Mean Shift algorithm is a non-parametric unsupervised learning technique use
 * **Parameter tuning:** Choosing the appropriate bandwidth for the neighborhood can affect results.
 * **Limited interpretability:** Cluster boundaries might not be as clear as in distance-based algorithms.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://dashee87.github.io/images/mean_shift_tutorial.gif" width="400"/>
-</div>
+</p>
 
 
 
@@ -549,10 +548,10 @@ Dimensionality reduction: Use structural characterstics to simplify data and can
 
 > Outliers needs to be handled before applying PCA
 
-<div style="text-align:center">
+<p align="center">
     <img src="http://www.billconnelly.net/wp-content/uploads/2021/05/PCA1-smaller-smaller.gif
     " width="400"/>
-</div>
+</p>
 
 Previously, each individual was represented by their height and weight, i.e. 2 numbers. But now, each individual is represented by just 1 number: how far along the blue line they are. Because our original data has 2 dimensions, there is also a second principal component, which is perpendicular (or “orthogonal”) to the first principal component.
 
@@ -593,16 +592,16 @@ These tables provide a concise overview of the purpose and key features of each 
 
 ## Feed forward Neural Network (FFNN)
 Each neuron in a layer has weights to all neurons in the previous layer. 
-<div style="text-align:center">
+<p align="center">
     <img src="https://afit-r.github.io/public/images/analytics/deep_learning/deep_nn.png" width="400"/>
-</div>
+</p>
 
 
 ### Neurons
 Each neuron takes a group of weighted inputs, applies an activation function and returns an output. The neuron then applies an activation function to the sum of weighted inputs from each incoming syanpse.
-<div style="text-align:center">
+<p align="center">
     <img src="https://ml-cheatsheet.readthedocs.io/en/latest/_images/neuron.png" width="400"/>
-</div>
+</p>
 
 | Task                             | Neural Network Model         | Other Models/Approaches         |
 | ---------------------------------| ----------------------------- | --------------------------------|
@@ -645,9 +644,9 @@ Start with a cost function (a function that measures the difference between the 
 | **Adagrad** | Adaptive learning rate, handles features with different scales well | Can decay learning rate too quickly, leading to slow convergence | Sparse datasets, features with large variations in scale | Similar to RMSprop but uses decaying average of squared gradients, can lead to overly aggressive learning rate decay |
 | **Adam** | Combines Momentum and RMSprop, often fast and stable convergence, requires less tuning | More complex than SGD, may not be optimal for all problems | General-purpose optimizer, often a good default choice | Combines momentum, adaptive learning rates, and exponential moving averages for smoother updates and better convergence |
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*m7-otgfbxiAvSipInHliXw.gif" width="400"/>
-</div>
+</p>
 
 
 ## Activation functions 
@@ -665,9 +664,9 @@ Start with a cost function (a function that measures the difference between the 
 |                      | - Helps with the vanishing gradient issue to some extent. | - Introduces a new hyperparameter (slope of the leak).   |
 
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/627d12431fbd5e61913b7423_60be4975a399c635d06ea853_hero_image_activation_func_dark.png" width="400"/>
-</div>
+</p>
 
 > **In sigmoid function the output is between 0 and 1 so small inputs will lead to very small outputs near to zero therefore when computing gradient it will be very small (vanishing gradient) however, in tanh function, very small inputs leads to outputs near to -1 so the gradient will still have some value therefore the vanishing gradient is less than sigmoid**
 
@@ -699,10 +698,10 @@ These steps are repeated for each mini-batch during training. The running mean a
 
 For Layer Normalization (LN), the mean and standard deviation are calculated independently for each feature (or channel) and each example within a mini-batch. The normalization is then applied independently to each feature and each example. Here's a step-by-step explanation:
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*gat8a-TUnopoYN_veGEi0w.png
     " width="400"/>
-</div>
+</p>
 
 Batch: calculate mean and variance over the whole batch.<br>
 layer: calculate mean and variance over all channels and pixels.
@@ -777,18 +776,18 @@ CNN uses the same filter across different locations in the image leading to fewe
 3. **Stride:** Controls how much the filter moves across the image in each layer, affecting the output size and receptive field (area covered by a filter).
 
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/max/700/1*FHPUtGrVP6fRmVHDn3A7Rw.png
     " width="400"/>
-</div>
+</p>
 
 ## Transfer learning
 
 Early layers in the CNN are meant to represent only the most primitive features such as edges, and later layers in the network are capturing features that are more particular to the specific image classification problem. These features in the later layers will build off of those earlier primitive layers..  
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://i.stack.imgur.com/bN2iA.png" width="400"/>
-</div>
+</p>
 
 
 **Guidelines**
@@ -822,9 +821,9 @@ These visualization techniques are valuable for interpretability, allowing pract
    - **Procedure:** Slide a small patch or window across the image, occluding the image under the patch. Repeatedly classify the partially occluded images and observe changes in the model's confidence scores.
    - **Visualization:** Heatmap highlighting areas where occlusion has the most impact on the prediction.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://blog.roboflow.com/content/images/2020/11/image-9.png" width="400"/>
-</div>
+</p>
 
 
 
@@ -834,9 +833,9 @@ These visualization techniques are valuable for interpretability, allowing pract
    - **Procedure:** Modify the backpropagation process to only propagate positive gradients, ignoring negative gradients during the backward pass.
    - **Visualization:** Results in a heatmap highlighting pixels with positive gradients, indicating their positive contribution to the prediction.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://glassboxmedicine.files.wordpress.com/2019/10/featuredimage2.png?w=816" width="400"/>
-</div>
+</p>
 
 
 
@@ -846,9 +845,9 @@ These visualization techniques are valuable for interpretability, allowing pract
    - **Idea:** Generates an image that maximizes the activation of a specific neuron or class by iteratively adjusting the input image.
    - **Procedure:** Start with a random image and iteratively update the image in the direction of maximizing the gradient of the target neuron or class with respect to the input image.
    - **Visualization:** Results in an image that activates the chosen neuron or class strongly.
-<div style="text-align:center">
+<p align="center">
     <img src="https://glassboxmedicine.files.wordpress.com/2019/07/fig1a-1.png" width="400"/>
-</div>
+</p>
 
 
 
@@ -858,9 +857,9 @@ These visualization techniques are valuable for interpretability, allowing pract
    - **Procedure:** Compute the gradient of the predicted class with respect to the input image. Use the magnitude of the gradients as a measure of importance for each pixel.
    - **Visualization:** Generate a heatmap based on the gradient magnitudes, highlighting the salient regions.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210722235025/Saliency-maps-generated-using-Grad-CAM-Grad-CAM-and-Smooth-Grad-CAM-respectively_W640.jpg" width="400"/>
-</div>
+</p>
 
 
 
@@ -873,9 +872,9 @@ These visualization techniques are valuable for interpretability, allowing pract
    1. If it is too small, the loss is barely changing
    2. If it is too high, cost explode may happen, and you can get NaN
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:459/0*C5kIkoBwht0fXRgs.jpeg" width="400"/>
-</div>
+</p>
 
 4. Random search is generally better than grid search.
       * Random search explores different hyperparameter combinations randomly, while grid search exhaustively checks all combinations within a defined range. Both aim to find the best hyperparameters for a model, but random search is faster and less likely to get stuck in local optima, while grid search provides a more thorough exploration and guarantees finding the best setting within the defined ranges.
@@ -954,9 +953,9 @@ This equation shows how the RNN combines the current input with information from
 I hope this clarifies the information in markdown format! Let me know if you have any further questions.
 
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" width="400"/>
-</div>
+</p>
 
 
 
@@ -1002,9 +1001,9 @@ I hope this clarifies the information in markdown format! Let me know if you hav
   - The output gate determines the output (hidden state) of the LSTM based on the updated cell state.
 
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1156/1*laH0_xXEkFE0lKJu54gkFQ.png" width="400"/>
-</div>
+</p>
 
 ## Gated Recurrent Unit (GRU)
 
@@ -1028,9 +1027,9 @@ GRUs and LSTMs are both popular choices for handling sequential data, and the ch
 
 LSTMs are more complex, therefore they may be able to find more complicated patterns, on the other hand, GRU are faster to train.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*yBXV9o5q7L_CvY7quJt3WQ.png" width="400"/>
-</div>
+</p>
 
 
 ## Seq2Seq models
@@ -1071,9 +1070,9 @@ Seq2Seq models have been successfully applied to various tasks, including:
 - **Speech Recognition:** Converting spoken language into written text.
 - **Conversational Agents:** Generating responses in natural language.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/max/942/1*KtWwvLK-jpGPSnj3tStg-Q.png" width="400"/>
-</div>
+</p>
 
 ## LSTM Applications
 1. Forecasting
@@ -1163,9 +1162,9 @@ Generative Adversarial Networks (GANs) are a class of artificial intelligence mo
 4. **Loss Function:**
    - GANs use a min-max game framework. The generator aims to minimize the probability of the discriminator correctly classifying its samples as fake, while the discriminator seeks to maximize this probability. This results in a loss function that is minimized by both networks during training.
 
-<div style="text-align:center">
+<p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*jDPj5v3JKGRRRyDZmQTkpQ.gif" width="400"/>
-</div>
+</p>
 
 
 ## Terminologies
@@ -1180,97 +1179,97 @@ Generative Adversarial Networks (GANs) are a class of artificial intelligence mo
 
 # **Visualizations**
 <!-- Data Exploration and Preprocessing Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>Data Distribution Histogram</h3>
     <img src="https://api.www.labxchange.org/api/v1/xblocks/lb:LabXchange:10d3270e:html:1/storage/17__histogram-31626365193365-3b46e339f410f97cfae66fc8c127ea02.png" width="400"/>
-</div>
+</p>
 
-<div style="text-align:center">
+<p align="center">
     <h3>Pair Plot</h3>
     <img src="https://seaborn.pydata.org/_images/pairplot_11_0.png" width="400"/>
-</div>
+</p>
 
-<div style="text-align:center">
+<p align="center">
     <h3>Correlation Heatmap</h3>
     <img src="https://www.quanthub.com/wp-content/uploads/correlation_heatmap_food_health-1024x867.png" width="400"/>
-</div>
+</p>
 
 <!-- Model Architecture Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>Model Summary</h3>
     <img src="https://miro.medium.com/v2/resize:fit:1400/1*6c68EXZvK8ohMuIV_DVkng.png" width="400"/>
-</div>
+</p>
 
-<div style="text-align:center">
+<p align="center">
     <h3>Graph Visualization</h3>
     <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/199/089/datas/original.jpeg" width="400"/>
-</div>
+</p>
 
 <!-- Training Progress Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>Loss and Accuracy Plot</h3>
     <img src="https://discuss.pytorch.org/uploads/default/4572286a1ffae2ff1f9729c7dcc4584b03b97020" width="400"/>
-</div>
+</p>
 
 
 <!-- Filter Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>Filter Visualization</h3>
     <img src="https://srdas.github.io/DLBook/DL_images/cnn9.png" width="400"/>
-</div>
+</p>
 
 <!-- Attention Maps -->
-<div style="text-align:center">
+<p align="center">
     <h3>Attention Map</h3>
     <img src="https://www.mdpi.com/remotesensing/remotesensing-12-01366/article_deploy/html/images/remotesensing-12-01366-g002.png" width="400"/>
-</div>
+</p>
 
 <!-- Embedding Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>t-SNE Plot</h3>
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/T-SNE_visualisation_of_word_embeddings_generated_using_19th_century_literature.png" width="400"/>
-</div>
+</p>
 
 
 <!-- Decision Boundary Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>Decision Boundary Plot</h3>
     <img src="https://i.stack.imgur.com/T3aMD.png" width="400"/>
-</div>
+</p>
 
 <!-- Confusion Matrices and Classification Reports -->
-<div style="text-align:center">
+<p align="center">
     <h3>Confusion Matrix</h3>
     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230316112623/download-(16).png" width="400"/>
-</div>
+</p>
 
-<div style="text-align:center">
+<p align="center">
     <h3>Classification Report</h3>
     <img src="https://i.stack.imgur.com/LIWH1.jpg" width="400"/>
-</div>
+</p>
 
 
 <!-- GAN Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>Generated Samples</h3>
     <img src="https://machinelearningmastery.com/wp-content/uploads/2019/06/Example-of-Celebrity-Photographs-and-GAN-Generated-Emojis.png" width="400"/>
-</div>
+</p>
 
-<div style="text-align:center">
+<p align="center">
     <h3>Latent Space Exploration</h3>
     <img src="https://miro.medium.com/v2/resize:fit:960/0*cYaaF2pFLECohCaI.gif" width="400"/>
-</div>
+</p>
 
 <!-- Hyperparameter Search Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>Hyperparameter Plot</h3>
     <img src="https://miro.medium.com/v2/resize:fit:1400/0*5N5USunsVC3h_jrx.png" width="400"/>
-</div>
+</p>
 
 <!-- Explainability Visualizations -->
-<div style="text-align:center">
+<p align="center">
     <h3>SHAP Values</h3>
     <img src="https://images.datacamp.com/image/upload/v1688055328/image_1268879d70.png" width="400"/>
-</div>
+</p>
 
 ---
