@@ -614,7 +614,7 @@ Each neuron takes a group of weighted inputs, applies an activation function and
 
 
 
-## Optimization and Gradient Desent
+## Optimization and Gradient Descent
 
 Start with a cost function (a function that measures the difference between the predicted values and the true values) then gradually move towards minimum.
 1) start at a random point (parameters)
@@ -934,7 +934,7 @@ An RNN typically outputs two main things at each time step:
 
 ## RNN Update Equation:
 
-The update equation for the hidden state \(h_t\) in an RNN can be written as:
+The update equation for the hidden state \(h_t\) in a RNN can be written as:
 
 ```
 h_t = activation(W_hh * h_{t-1} + W_xh * x_t + b_h)
@@ -950,8 +950,6 @@ where:
 * `activation`: Activation function (e.g., `tanh` or `ReLU`) that introduces non-linearity and allows the network to learn complex relationships.
 
 This equation shows how the RNN combines the current input with information from the past (stored in the hidden state) to update its internal representation and make predictions.
-
-I hope this clarifies the information in markdown format! Let me know if you have any further questions.
 
 
 <p align="center">
