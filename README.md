@@ -549,8 +549,7 @@ Dimensionality reduction: Use structural characterstics to simplify data and can
 > Outliers needs to be handled before applying PCA
 
 <p align="center">
-    <img src="http://www.billconnelly.net/wp-content/uploads/2021/05/PCA1-smaller-smaller.gif
-    " width="400"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/PCA_Projection_Illustration.gif" width="400"/>
 </p>
 
 Previously, each individual was represented by their height and weight, i.e. 2 numbers. But now, each individual is represented by just 1 number: how far along the blue line they are. Because our original data has 2 dimensions, there is also a second principal component, which is perpendicular (or “orthogonal”) to the first principal component.
@@ -624,6 +623,8 @@ Start with a cost function (a function that measures the difference between the 
    * The Gradient is the direction of the biggest increase, so we take it's negative to point to the direction of the biggest decrease of the loss
 
 4) Iterate till you reach global minimum
+
+> Learning rate is a hyperparameter that controls the size of the step taken during the optimization process of training a machine learning model. It determines how much the model's parameters should be updated with respect to the gradients of the loss function.
 
 | Type of Gradient Descent | Batch Size Based Definition |
 |---|---|
